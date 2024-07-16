@@ -1,0 +1,12 @@
+{
+    "parent": "flameddogo.amethyst:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "flameddogo.amethyst:initialization"
+    },
+    "sends_telemetry_event": false
+}

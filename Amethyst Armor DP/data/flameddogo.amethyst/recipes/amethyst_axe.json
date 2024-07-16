@@ -1,0 +1,73 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "XX",
+        "XY",
+        " Y"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "Y": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:stone_axe",
+        "count": 1,
+        "components": {
+            "minecraft:max_damage": 906,
+            "minecraft:damage": 0,
+            "minecraft:custom_model_data": 82504,
+            "minecraft:item_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Amethyst Pickaxe\"}",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.attack_damage",
+                        "uuid": [
+                            2093846971,
+                            -869970354,
+                            -1273349908,
+                            -2019011647
+                        ],
+                        "name": "minecraft:generic.attack_damage",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:generic.attack_speed",
+                        "uuid": [
+                            694773978,
+                            -1030992517,
+                            -2004842530,
+                            -911171156
+                        ],
+                        "name": "minecraft:generic.attack_speed",
+                        "amount": -3,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "minecraft:lore": [
+                "{\"text\":\" \"}",
+                "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+                "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 9 Attack Damage\"}",
+                "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Speed\"}"
+            ],
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#minecraft:mineable/axe",
+                        "speed": 7,
+                        "correct_for_drops": true
+                    }
+                ]
+            }
+        }
+    }
+}

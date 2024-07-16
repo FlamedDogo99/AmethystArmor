@@ -1,0 +1,36 @@
+{
+    "parent": "flameddogo.amethyst:root",
+    "criteria": {
+        "equipped_leather_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "flameddogo.had_leather_chestplate": {
+                                "max": 0
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "chest": {
+                                    "items": "minecraft:leather_chestplate"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "flameddogo.amethyst:equip_leather_chestplate"
+    },
+    "sends_telemetry_event": false
+}

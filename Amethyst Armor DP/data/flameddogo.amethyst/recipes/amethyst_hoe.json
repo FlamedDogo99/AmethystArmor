@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "XX",
+        " Y",
+        " Y"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "Y": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:stone_hoe",
+        "count": 1,
+        "components": {
+            "minecraft:max_damage": 906,
+            "minecraft:damage": 0,
+            "minecraft:custom_model_data": 82504,
+            "minecraft:item_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Amethyst Hoe\"}",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [],
+                "show_in_tooltip": false
+            },
+            "minecraft:lore": [
+                "{\"text\":\" \"}",
+                "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+                "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1 Attack Damage\"}",
+                "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 4 Attack Speed\"}"
+            ],
+            "minecraft:tool": {
+                "rules": [
+                    {
+                        "blocks": "#minecraft:mineable/hoe",
+                        "speed": 7,
+                        "correct_for_drops": true
+                    }
+                ]
+            }
+        }
+    }
+}

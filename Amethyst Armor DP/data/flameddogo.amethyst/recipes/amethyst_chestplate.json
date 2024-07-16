@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "id": "minecraft:leather_chestplate",
+        "count": 1,
+        "components": {
+            "minecraft:dyed_color": {
+                "rgb": 2,
+                "show_in_tooltip": false
+            },
+            "minecraft:max_damage": 324,
+            "minecraft:damage": 0,
+            "minecraft:custom_model_data": 82504,
+            "minecraft:item_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Amethyst Chestplate\"}",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor_toughness",
+                        "uuid": [
+                            520133164,
+                            805979045,
+                            -1140977588,
+                            71322014
+                        ],
+                        "name": "minecraft:generic.armor_toughness",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "minecraft:generic.armor",
+                        "uuid": [
+                            -321431025,
+                            -827177362,
+                            -1611531008,
+                            -1259289635
+                        ],
+                        "name": "minecraft:generic.armor",
+                        "amount": 7,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    }
+                ]
+            }
+        }
+    }
+}
