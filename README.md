@@ -20,3 +20,6 @@ A simple datapack + resource pack that adds amethyst armor and tools to vanilla 
 - The item models for the armor are inspired by [m2cs](https://www.planetminecraft.com/member/m2cs/)'s [copper and amethyst gear](https://www.planetminecraft.com/data-pack/copper-and-amethyst-gear/) resource pack
 - The item models for the tools are inspired by [TecKillA](https://www.planetminecraft.com/member/teckilla/)'s [Amethyst Tools Data Pack](https://www.9minecraft.net/amethyst-tools-data-pack/)
 - All other functions, advancements, and recipes are created by me
+
+# Known issues
+- Players can dye the armor in a crafting table + clean the armor in a cauldron. This makes the armor display as leather armor on the player, but does not break any functionality
