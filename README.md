@@ -1,5 +1,5 @@
 # Amethyst Armor and Tools Datapack + Resource Pack
-![Minecraft Version](https://img.shields.io/badge/Minecraft%20Version-1.20.6-blue?style=flat-square)
+![Minecraft Version](https://img.shields.io/badge/Minecraft%20Version-1.21-blue?style=flat-square)
 [![License](https://img.shields.io/github/license/FlamedDogo99/AmethystArmor?style=flat-square)](https://github.com/FlamedDogo99/AmethystArmor/blob/main/LICENSE)
 ## About
 A simple datapack + resource pack that adds amethyst armor and tools to vanilla minecraft.
