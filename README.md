@@ -1,5 +1,5 @@
 # Amethyst Armor and Tools Datapack + Resource Pack
-![Minecraft Version](https://img.shields.io/badge/Minecraft%20Version-1.20.6-blue?style=flat-square)
+![Minecraft Version](https://img.shields.io/badge/Minecraft%20Version-1.21-blue?style=flat-square)
 [![License](https://img.shields.io/github/license/FlamedDogo99/AmethystArmor?style=flat-square)](https://github.com/FlamedDogo99/AmethystArmor/blob/main/LICENSE)
 ## About
 A simple datapack + resource pack that adds amethyst armor and tools to vanilla minecraft.
@@ -7,7 +7,8 @@ A simple datapack + resource pack that adds amethyst armor and tools to vanilla 
 - No Optifine is required
 - No base-game armor or tools are replaced
 - Any added item can be crafted with the normal crafting table
-- All armor related sounds have english subtitle support 
+- All armor related sounds have english subtitle support
+- All trims maintain functionality and work on the custom armor
 
 <div align="center">
 
