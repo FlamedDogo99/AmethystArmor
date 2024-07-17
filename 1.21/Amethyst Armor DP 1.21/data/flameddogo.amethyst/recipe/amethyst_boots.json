@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "X X",
+        "X X"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "id": "minecraft:leather_boots",
+        "count": 1,
+        "components": {
+            "minecraft:dyed_color": {
+                "rgb": 2,
+                "show_in_tooltip": false
+            },
+            "minecraft:max_damage": 312,
+            "minecraft:damage": 0,
+            "minecraft:custom_model_data": 82504,
+            "minecraft:item_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Amethyst Boots\"}",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "id": "64b30e01-d8df-4446-aa33-99a7190d0809",
+                        "type": "minecraft:generic.armor_toughness",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    },
+                    {
+                        "id": "f9893819-e29a-414a-a35e-91d2086f0f46",
+                        "type": "minecraft:generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    }
+                ]
+            }
+        }
+    }
+}

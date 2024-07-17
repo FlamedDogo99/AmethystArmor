@@ -1,0 +1,11 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+  "layer0": "item/stone_shovel"
+ },
+
+ "overrides": [
+  { "predicate":{"custom_model_data": 82504}, "model": "item/amethyst_shovel"}
+
+ ]
+}

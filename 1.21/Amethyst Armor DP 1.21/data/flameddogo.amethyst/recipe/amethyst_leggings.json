@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "id": "minecraft:leather_leggings",
+        "count": 1,
+        "components": {
+            "minecraft:dyed_color": {
+                "rgb": 2,
+                "show_in_tooltip": false
+            },
+            "minecraft:max_damage": 360,
+            "minecraft:damage": 0,
+            "minecraft:custom_model_data": 82504,
+            "minecraft:item_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Amethyst Leggings\"}",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "id": "31e91d57-d1d9-4d28-a526-d6b752424a99",
+                        "type": "minecraft:generic.armor_toughness",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    },
+                    {
+                        "id": "ef23725b-b140-4247-8444-5c83889f2859",
+                        "type": "minecraft:generic.armor",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    }
+                ]
+            }
+        }
+    }
+}
