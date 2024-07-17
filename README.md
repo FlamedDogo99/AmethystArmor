@@ -7,7 +7,8 @@ A simple datapack + resource pack that adds amethyst armor and tools to vanilla 
 - No Optifine is required
 - No base-game armor or tools are replaced
 - Any added item can be crafted with the normal crafting table
-- All armor related sounds have english subtitle support 
+- All armor related sounds have english subtitle support
+- All trims maintain functionality and work on the custom armor
 
 <div align="center">
 
